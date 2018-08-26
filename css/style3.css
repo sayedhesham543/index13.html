@@ -1,0 +1,296 @@
+body
+{
+    box-sizing: border-box;
+    background: url(../img/body2.jpg) no-repeat center center fixed;
+    font-family: 'Work Sans', sans-serif;
+}
+.body1
+{
+    background-color: rgba(1,1,1,0.6)
+}
+
+/*start navbar*/
+.navbar{
+    margin-bottom: 0px;
+    background-color: #151515;
+    border: none;
+    height:80px;
+    z-index: 99999999999999999999999999999999999999999999999999999;
+}
+.navbar>.container .navbar-brand
+{
+    font-size:40px; 
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus
+{
+    border-radius:3px;
+    padding-top: 5px;
+    margin-top: 25px;
+    width:70px;
+    height: 30px;
+    color:#333;
+}
+.navbar-default .navbar-nav > li > a
+{
+    margin-top: 15px;
+    color:#ffffff;
+    transition: all 0.3s ease;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 25px;
+    width:auto;
+     margin-left: 10px;
+    background-color: ;
+}
+.navbar-default .navbar-nav > li > a.dropdown-toggle
+{
+     border-radius:3px;
+    color:#ffff;
+}
+.navbar-default .navbar-nav > li > a.dropdown-toggle:hover{
+    color:#333;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus
+{
+    margin-top: 15px;
+    color:#ffffff;
+    transition: all 0.3s ease;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 25px;
+    width:auto;
+     margin-left: 10px;
+    color:#333;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    border-radius:3px;
+    padding-top: 5px;
+    margin-top: 25px;
+    width:auto;
+    height: 30px;
+    color:#333;
+    
+}
+.navbar-nav > li > .dropdown-menu
+{
+    margin-top: 24px;
+    text-align: left;
+    position: absolute;
+    left:5px;
+    width:184px;
+    background-color: #151515;
+}
+.dropdown-menu > li > a
+{
+    color:#ffff;
+    transition: all 0.4s ease-in-out;
+}
+.dropdown-menu > li > a:hover
+{
+    color: #333;
+    padding-left: 30px;
+}
+
+/********end navbar*******/
+/* start before footer*/
+.before-footer
+{
+    
+    width: 1349;
+    height: 60px;
+    background-color:#090909;
+    padding-top: 15px;
+    padding-bottom:30px;
+}
+.before-footer span{transition: all 0.5s ease-in-out; cursor: pointer;}
+
+/* end before footer*/
+/* start footer*/
+.footer
+{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: black;
+    color:white
+}
+.footer div
+{
+    line-height: 1.9;
+}
+.footer pull-right
+{
+    line-height: 0;
+    
+}
+.footer ul li 
+{
+    float:left;
+    margin:10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.footer ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* end  footer*/
+.form
+{
+    padding-top: 50px;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    overflow: hidden;
+    min-height: 500px;
+}
+.form i
+{
+    color:#E8CE0E;
+}
+.form h1
+{
+    padding-bottom: 30px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #111;
+    color:#E8CE0E;
+}
+.form input
+{
+    background-color:#9999993d;
+    color:black;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #333;
+}
+.form input:hover,
+.form input:active,
+.form textarea:hover,
+.form textarea:active
+{
+    background:transparent;
+    border: 1px solid #333;
+}
+form .btn
+{
+    transition: all 0.5s ease-in-out;
+}
+.form textarea
+{
+    resize: none;
+    height:170px;
+    background-color:#9999993d;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #333;
+    color:black;
+}
+
+
+
+.overlay
+{
+    background: #222;
+    color:white;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index: 99999999999999999999999999;
+}
+
+.sk-folding-cube {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+position: absolute;
+  top:270px;
+  left:675px;
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d9534f;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}
